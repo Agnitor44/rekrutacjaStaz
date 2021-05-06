@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: lightblue;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+div.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1024px;
+    width: 100%;
+    margin:  0 auto;
+    div.buttonZone {
+        display: none;
+         width: 95%;
+        margin: 20px auto;
+        margin-bottom: 0;
+        button {
+            width: 30px;
+            margin:0 0.5%;
+            padding: 5px;
+            border: none;
+            background-color: white;
+        }
+    }
+    div.saveZone {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        margin: 0 auto;
+        align-items: center;
+       
+        form {
+            width: 40%;
+            height: 30px;
+            input {
+                height: 100%;
+            }
+            button {
+                height: 100%;
+                widows: 30px;
+                padding: 5px;
+            }
+          
+        }
+        form.loadForm {
+            display: none;
+        }
+    }
+}
+
+
+
+.box {
+    width: 95%;
+    margin: 20px auto;
+    height: 500px;
+    background-color: #fff;
+    border: 2px solid black;
+    font-family: 'Roboto', sans-serif;
+    padding: 30px;
+    
+}
